@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Hides Vercel/Next.js dev overlay and preview indicator */
+#__next-build-watcher,
+[data-nextjs-dev-overlay],
+[data-nextjs-icon] {
+  display: none !important;
+}
